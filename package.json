@@ -11,6 +11,7 @@
     "express": "^4.17.1",
     "express-pino-logger": "^5.0.0",
     "jsonwebtoken": "^8.5.1",
+    "mongo-seeding": "^3.4.1",
     "mongoose": "^5.10.7",
     "nodemon": "^2.0.4",
     "pino": "^6.7.0",
@@ -30,7 +31,8 @@
     "dev": "cross-env LOG_LEVEL=debug NODE_ENV=development nodemon | ./node_modules/.bin/pino-pretty",
     "dev-w": "cross-env LOG_LEVEL=debug NODE_ENV=development nodemon",
     "start": "cross-env NODE_ENV=production node src/index.js",
-    "lint": "eslint \"src/**/*.js\""
+    "lint": "eslint \"src/**/*.js\"",
+    "seedDb": "node seed-db/import.js"
   },
   "keywords": [],
   "author": "Meera Jose Mampilly",
