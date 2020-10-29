@@ -1,5 +1,4 @@
 const express = require("express");
-const { findById } = require("../models/user");
 const User = require("../models/user");
 
 const router = express.Router({ mergeParams: true });
@@ -20,7 +19,7 @@ router.get("/", async (req, res) => {
 // Add a ticket to a specific user
 router.post("/", async (req, res) => {
   const userData = await User.findById(req.params.userId);
-  const fullName = userData.firstName + " " + userData.lastName;
+  const fullName = `${userData.firstName} ${userData.lastName}`;
   const { body } = req;
   try {
     if (

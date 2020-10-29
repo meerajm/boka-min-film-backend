@@ -21,7 +21,7 @@ router.post("/", async (req, res) => {
         firstName,
         lastName,
         email,
-        phoneNo
+        phoneNo,
       });
       await user.save();
       return res.json(user);

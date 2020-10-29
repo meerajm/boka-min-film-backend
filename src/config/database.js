@@ -1,14 +1,14 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 // eslint-disable-next-line import/no-unresolved
 
 const envFiles = {
-  development: '.env',
-  test: '.env.test',
+  development: ".env",
+  test: ".env.test",
 };
 
 // eslint-disable-next-line import/no-unresolved
-require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
+require("dotenv").config({ path: envFiles[process.env.NODE_ENV] });
 
 const connect = async () => {
   const mongoConnectionString = process.env.MONGO_URI;
