@@ -18,6 +18,7 @@ app.use(cors());
 const users = require("./controllers/users");
 const tickets = require("./controllers/tickets");
 const movies = require("./controllers/movies");
+const cinemas = require("./controllers/cinemas");
 
 app.get("/", (req, res) => {
   logger.debug("hi there");
@@ -29,5 +30,6 @@ app.get("/", (req, res) => {
 app.use("/api/v1/users", users);
 app.use("/api/v1/users/:userId/tickets", tickets);
 app.use("/api/v1/movies", movies);
+app.use("/api/v1/cinemas", cinemas);
 
 module.exports = app;
