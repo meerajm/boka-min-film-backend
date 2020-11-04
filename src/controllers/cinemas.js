@@ -29,8 +29,22 @@ router.post("/", async (req, res) => {
   }
 });
 
+//get cinema with show details
+router.get("/all", async (req, res) => {
+  try {
+    const cinemaNames = await Cinema.find({}, { _id: 1, cinemaName: 1 });
+    if (!cinemaNames) {
+      res.status(404).json({ message: "no data found" });
+    } else {
+      return res.json(cinemaNames);
+    }
+  } catch (err) {
+    res.status(500).send();
+  }
+});
+
 //get all cinema details matching the movie title
-router.get("/:cinema/:movieTitle", async (req, res) => {
+router.get("/:cinema/:movieTitle/:day", async (req, res) => {
   try {
     const movies = await Cinema.findOne({ cinemaName: req.params.cinema });
     let filterCinemas = [];
@@ -40,7 +54,10 @@ router.get("/:cinema/:movieTitle", async (req, res) => {
         .json({ message: "movie data does not exist for this cinema house" });
     } else {
       filterCinemas = movies.showDetails.filter((data) => {
-        return data.movieTitle === req.params.movieTitle;
+        return (
+          data.movieTitle === req.params.movieTitle &&
+          data.showDay === req.params.day
+        );
       });
       if (!filterCinemas) {
         res.status(404).json({ message: "movie does not exist" });
@@ -49,7 +66,7 @@ router.get("/:cinema/:movieTitle", async (req, res) => {
       }
     }
   } catch (err) {
-    res.status(500).send();
+    return res.status(500).send();
   }
 });
 
