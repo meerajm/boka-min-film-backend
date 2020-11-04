@@ -29,4 +29,28 @@ router.post("/", async (req, res) => {
   }
 });
 
+//get all cinema details matching the movie title
+router.get("/:cinema/:movieTitle", async (req, res) => {
+  try {
+    const movies = await Cinema.findOne({ cinemaName: req.params.cinema });
+    let filterCinemas = [];
+    if (!movies) {
+      res
+        .status(404)
+        .json({ message: "movie data does not exist for this cinema house" });
+    } else {
+      filterCinemas = movies.showDetails.filter((data) => {
+        return data.movieTitle === req.params.movieTitle;
+      });
+      if (!filterCinemas) {
+        res.status(404).json({ message: "movie does not exist" });
+      } else {
+        return res.json(filterCinemas);
+      }
+    }
+  } catch (err) {
+    res.status(500).send();
+  }
+});
+
 module.exports = router;

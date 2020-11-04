@@ -1,0 +1,180 @@
+[
+    {
+        "cinemaName": "INOX",
+        "showDetails": [
+            {
+                "showDay": "söndag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "söndag",
+                "startTime": "15:30",
+                "movieTitle": "Kedarnath",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "måndag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "tisdag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "onsdag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "torsdag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            
+            {
+                "showDay": "fredag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "lördag",
+                "startTime": "9:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            }
+        ]
+    },
+    {
+        "cinemaName": "PVR Cinemas",
+        "showDetails": [
+            {
+                "showDay": "söndag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "måndag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "tisdag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "onsdag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "torsdag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            
+            {
+                "showDay": "fredag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "showDay": "lördag",
+                "startTime": "14:30",
+                "movieTitle": "Welcome",
+                "screen": "2",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            }
+        ]
+    }
+    
+]

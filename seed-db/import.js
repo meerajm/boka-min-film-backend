@@ -27,7 +27,7 @@ const collections = seeder.readCollectionsFromPath(
 (async () => {
   try {
     await seeder.import(collections);
-    console.log('movies were successfully imported');
+    console.log('movies and cinema details were successfully imported');
   } catch (e) {
     console.log(e);
   }
