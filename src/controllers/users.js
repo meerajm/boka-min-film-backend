@@ -9,26 +9,23 @@ router.get("/", async (req, res) => {
   return res.json(allUsers);
 });
 
-// post only user info - without ticket details
+// post user info
 router.post("/", async (req, res) => {
-  const { firstName, lastName, email, phoneNo } = req.body;
+  const { name, email, phoneNo, ticketDetails } = req.body;
   try {
-    if (req.body.tickets) {
-      return res.status(400).json({ message: "Do not include tickets now" });
-    }
-    if (firstName && email && phoneNo) {
+    if (name && email && phoneNo && ticketDetails) {
       const user = new User({
-        firstName,
-        lastName,
+        name,
         email,
         phoneNo,
+        ticketDetails,
       });
       await user.save();
       return res.json(user);
     }
     return res
       .status(400)
-      .json({ message: "please include firstName, email and phone number" });
+      .json({ message: "please include name, email, phone number and ticket details" });
   } catch (err) {
     return res.status(500).send(err);
   }

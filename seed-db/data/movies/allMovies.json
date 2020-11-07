@@ -5,7 +5,7 @@
         "language": "English",
         "genre": "Action",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Captain America: Civil War",
@@ -13,7 +13,7 @@
         "language": "English",
         "genre": "Action",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Crazy, Stupid, Love",
@@ -21,7 +21,7 @@
         "language": "English",
         "genre": "Romance",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "P.S. I Love You",
@@ -29,7 +29,7 @@
         "language": "English",
         "genre": "Romance",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "The Little Rascals",
@@ -37,7 +37,7 @@
         "language": "English",
         "genre": "Comedy",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Problem Child",
@@ -45,7 +45,7 @@
         "language": "English",
         "genre": "Comedy",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "The Conjuring",
@@ -53,7 +53,7 @@
         "language": "English",
         "genre": "Horror",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Sami Blood",
@@ -61,7 +61,7 @@
         "language": "Swedish",
         "genre": "Drama",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Welcome",
@@ -69,7 +69,7 @@
         "language": "Hindi",
         "genre": "Comedy",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=dEjN98Io4gs"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Kedarnath",
@@ -77,6 +77,6 @@
         "language": "Hindi",
         "genre": "Romantic drama",
         "description": "",
-        "trailer":"https://www.youtube.com/watch?v=03-KVRmd3xo"
+        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
     }
 ]

@@ -2,11 +2,10 @@ const mongoose = require("mongoose");
 const { TicketSchema } = require("./ticket");
 
 const UserSchema = new mongoose.Schema({
-  firstName: { type: String, required: true },
-  lastName: String,
+  name: { type: String, required: true },
   email: { type: String, required: true },
   phoneNo: { type: String, required: true },
-  tickets: [TicketSchema],
+  ticketDetails: [TicketSchema],
 });
 
 module.exports = mongoose.model("User", UserSchema);

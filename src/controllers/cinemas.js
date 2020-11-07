@@ -11,12 +11,12 @@ router.get("/", async (req, res) => {
 
 // post cinema information
 router.post("/", async (req, res) => {
-  const { cinemaName, showData } = req.body;
+  const { cinemaName, showDetails } = req.body;
   try {
-    if (cinemaName && showData) {
+    if (cinemaName && showDetails) {
       const cinema = new Cinema({
         cinemaName,
-        showData,
+        showDetails,
       });
       await cinema.save();
       return res.json(cinema);
@@ -26,6 +26,35 @@ router.post("/", async (req, res) => {
       .json({ message: "please include cinema name and show details" });
   } catch (err) {
     return res.status(500).send(err);
+  }
+});
+
+//Update booked seats
+router.patch("/:cinemaId/:showId", async (req, res) => {
+  const { body } = req;
+  try {
+    const cinema = await Cinema.findById(req.params.cinemaId);
+    if (!cinema) {
+      return res.status(404).json({ message: "cinema id does not exist" });
+    } else {
+      const showDetail = await cinema.showDetails.find((show) => {
+        return show.id === +req.params.showId;
+      });
+      if (!showDetail) {
+        return res
+          .status(404)
+          .json({ message: "show details does not exist for the id" });
+      } else {
+        const result = body.seatNo.concat(showDetail.bookedSeats);
+        await Cinema.updateOne(
+          { _id: req.params.cinemaId, "showDetails.id": req.params.showId },
+          { $set: { "showDetails.$.bookedSeats": result, }, }
+        );
+        return res.json({message: "Successfully updated"});
+      }
+    }
+  } catch (err) {
+    res.status(500).send();
   }
 });
 

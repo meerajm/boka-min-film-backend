@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
 
 const TicketSchema = new mongoose.Schema({
-  timeDate: { type: String, required: true },
+  date: { type: String, required: true },
+  time: { type: String, required: true },
   transactionSuccess: { type: Boolean, required: true },
-  name: { type: String, required: true },
+  username: { type: String, required: true },
+  movieName: { type: String, required: true },
   quantity: { type: Number, required: true },
   seatNo: [{ type: String, required: true }],
 });
