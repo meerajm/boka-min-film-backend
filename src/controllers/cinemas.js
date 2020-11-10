@@ -30,10 +30,10 @@ router.post("/", async (req, res) => {
 });
 
 //Update booked seats
-router.patch("/:cinemaId/:showId", async (req, res) => {
+router.patch("/:cinemaName/:showId", async (req, res) => {
   const { body } = req;
   try {
-    const cinema = await Cinema.findById(req.params.cinemaId);
+    const cinema = await Cinema.findOne({cinemaName:req.params.cinemaName});
     if (!cinema) {
       return res.status(404).json({ message: "cinema id does not exist" });
     } else {
@@ -47,7 +47,7 @@ router.patch("/:cinemaId/:showId", async (req, res) => {
       } else {
         const result = body.seatNo.concat(showDetail.bookedSeats);
         await Cinema.updateOne(
-          { _id: req.params.cinemaId, "showDetails.id": req.params.showId },
+          { cinemaName: req.params.cinemaName, "showDetails.id": req.params.showId },
           { $set: { "showDetails.$.bookedSeats": result, }, }
         );
         return res.json({message: "Successfully updated"});
