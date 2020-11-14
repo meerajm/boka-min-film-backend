@@ -1,5 +1,6 @@
 const express = require("express");
 const cors = require("cors");
+const multer = require('multer');
 const pino = require("pino");
 const expressLogger = require("express-pino-logger");
 
@@ -14,6 +15,15 @@ if (["development", "production"].includes(process.env.NODE_ENV)) {
 
 app.use(express.json({ limit: "50mb" }));
 app.use(cors());
+
+const multerMid = multer({
+  storage: multer.memoryStorage(),
+  limits: {
+    fileSize: 5 * 1024 * 1024,
+  },
+});
+
+app.use(multerMid.single('file'));
 
 const users = require("./controllers/users");
 const tickets = require("./controllers/tickets");
