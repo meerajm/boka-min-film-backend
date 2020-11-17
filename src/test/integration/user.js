@@ -40,29 +40,26 @@ describe("User API test", async () => {
       expect(response.body[0].name).to.equal(expectedUser.name);
       expect(response.body[0].email).to.equal(expectedUser.email);
       expect(response.body[0].phoneNo).to.equal(expectedUser.phoneNo);
+      expect(response.body[0].ticketDetails[0].date).to.equal(
+        expectedUser.ticketDetails[0].date
+      );
+      expect(response.body[0].ticketDetails[0].time).to.equal(
+        expectedUser.ticketDetails[0].time
+      );
       expect(response.body[0].ticketDetails.date).to.equal(
         expectedUser.ticketDetails.date
       );
-      expect(response.body[0].ticketDetails.time).to.equal(
-        expectedUser.ticketDetails.time
+      expect(response.body[0].ticketDetails[0].quantity).to.equal(
+        expectedUser.ticketDetails[0].quantity
       );
-      expect(response.body[0].ticketDetails.date).to.equal(
-        expectedUser.ticketDetails.date
+      expect(response.body[0].ticketDetails[0].username).to.equal(
+        expectedUser.ticketDetails[0].username
       );
-      expect(response.body[0].ticketDetails.quantity).to.equal(
-        expectedUser.ticketDetails.quantity
+      expect(response.body[0].ticketDetails[0].movieName).to.equal(
+        expectedUser.ticketDetails[0].movieName
       );
-      expect(response.body[0].ticketDetails.username).to.equal(
-        expectedUser.ticketDetails.username
-      );
-      expect(response.body[0].ticketDetails.movieName).to.equal(
-        expectedUser.ticketDetails.movieName
-      );
-      expect(response.body[0].ticketDetails.transactionSuccess).to.equal(
-        expectedUser.ticketDetails.transactionSuccess
-      );
-      expect(response.body[0].ticketDetails.seatNo).to.equal(
-        expectedUser.ticketDetails.seatNo
+      expect(response.body[0].ticketDetails[0].transactionSuccess).to.equal(
+        expectedUser.ticketDetails[0].transactionSuccess
       );
     });
   });
@@ -91,7 +88,6 @@ describe("User API test", async () => {
 
       const findUser = await User.findOne({ _id: response.body._id });
       const findUserId = findUser._id.toString();
-
       expect(response.body._id).to.equal(findUserId);
       expect(response.body.name).to.equal(findUser.name);
       expect(response.body.phoneNo).to.equal(findUser.phoneNo);
