@@ -4,7 +4,6 @@ const { expect } = require("chai");
 const app = require("../../server");
 const { connect } = require("../../config/database");
 const Cinema = require("../../models/cinema");
-const showDetails = require("../../models/showDetails");
 
 describe("Cinema API test", async () => {
   beforeEach(() => {
@@ -78,10 +77,45 @@ describe("Cinema API test", async () => {
         .expect(200);
 
       const cinemaNames = await Cinema.find({}, { _id: 1, cinemaName: 1 });
-      console.log(cinemaNames[0]._id)
       expect(response.body[0].cinemaName).to.equal(cinemaNames[0].cinemaName);
       expect(response.body[0]._id).to.equal(cinemaNames[0]._id.toString());
       expect(response.body[0]).to.not.include(expectedCinema.showDetails);
+    });
+  });
+
+  describe("GET /api/v1/cinemas/:cinema/:movieTitle/:day", () => {
+    it("should return all show details", async () => {
+      const expectedCinema = new Cinema({
+        cinemaName: "INOX",
+        showDetails: [
+          {
+            id: 1,
+            showDay: "söndag",
+            startTime: "9:30",
+            movieTitle: "Welcome",
+            screen: "1",
+            bookedSeats: ["A1", "A2", "B1"],
+          },
+        ],
+      });
+      await expectedCinema.save();
+
+      const response = await supertest(app)
+        .get(
+          `/api/v1/cinemas/${expectedCinema.cinemaName}/${expectedCinema.showDetails[0].movieTitle}/${expectedCinema.showDetails[0].showDay}`
+        )
+        .expect(200);
+
+      const cinema = await Cinema.findOne({
+        cinemaName: expectedCinema.cinemaName,
+      });
+      const filterCinemas = cinema.showDetails.filter((data) => {
+        return (
+          data.movieTitle === expectedCinema.showDetails[0].movieTitle &&
+          data.showDay === expectedCinema.showDetails[0].showDay
+        );
+      });
+      expect(JSON.stringify(response.body)).to.equal(JSON.stringify(filterCinemas));
     });
   });
 
