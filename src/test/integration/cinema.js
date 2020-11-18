@@ -50,6 +50,9 @@ describe("Cinema API test", async () => {
       expect(response.body[0].showDetails[0].screen).to.equal(
         expectedCinema.showDetails[0].screen
       );
+      expect(
+        JSON.stringify(response.body[0].showDetails[0].bookedSeats)
+      ).to.equal(JSON.stringify(expectedCinema.showDetails[0].bookedSeats));
     });
   });
 
@@ -84,7 +87,9 @@ describe("Cinema API test", async () => {
       const findUpdatedCinema = await Cinema.findOne({
         cinemaName: expectedCinema.cinemaName,
       });
-      expect(JSON.stringify(findUpdatedCinema.showDetails[0].bookedSeats)).to.equal(JSON.stringify(["E2", "A1", "A2", "B1"]));
+      expect(
+        JSON.stringify(findUpdatedCinema.showDetails[0].bookedSeats)
+      ).to.equal(JSON.stringify(["E2", "A1", "A2", "B1"]));
     });
   });
 });
