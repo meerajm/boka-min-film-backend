@@ -2,81 +2,81 @@
     {
         "title": "Avengers: Infinity War",
         "poster": "https://m.media-amazon.com/images/M/MV5BMjMxNjY2MDU1OV5BMl5BanBnXkFtZTgwNzY1MTUwNTM@._V1_SX300.jpg",
-        "language": "English",
+        "language": "Engelsk",
         "genre": "Action",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "description": "Avengers måste hindra Thanos, en intergalaktisk krigsherre, från att ta händerna på alla oändlighetsstenarna. Thanos är dock beredd att gå långt för att genomföra sin galen plan.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Captain America: Civil War",
         "poster": "https://m.media-amazon.com/images/M/MV5BMjQ0MTgyNjAxMV5BMl5BanBnXkFtZTgwNjUzMDkyODE@._V1_SX300.jpg",
-        "language": "English",
+        "language": "Engelsk",
         "genre": "Action",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "description": "Friktion uppstår mellan Avengers när en grupp stöder regeringens beslut att genomföra en lag för att kontrollera deras befogenheter medan den andra motsätter sig den.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Crazy, Stupid, Love",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTg2MjkwMTM0NF5BMl5BanBnXkFtZTcwMzc4NDg2NQ@@._V1_SX300.jpg",
-        "language": "English",
-        "genre": "Romance",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "language": "Engelsk",
+        "genre": "Romantik",
+        "description": "Cal, en medelålders man, är krossad när hans fru ber om skilsmässa. Men för att komma över sin förlust börjar han plocka upp kvinnor i en bar på insisterande av sin nyvunna vän, Jacob.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "P.S. I Love You",
         "poster": "https://m.media-amazon.com/images/M/MV5BNTg2MDg4MjI5NV5BMl5BanBnXkFtZTcwMzQ0MDczMw@@._V1_SX300.jpg",
-        "language": "English",
-        "genre": "Romance",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "language": "Engelsk",
+        "genre": "Romantik",
+        "description": "Holly Kennedy får brev från sin avlidne man som ger henne hopp, styrka och inspiration och får henne att känna sig som om han står vid hennes sida varje steg på vägen.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "The Little Rascals",
         "poster": "https://m.media-amazon.com/images/M/MV5BYWE1MzdmNmMtNWQwZS00MTVkLTk3MDMtYzVkOWZlOTczMDIwXkEyXkFqcGdeQXVyNjg4NzYzMzA@._V1_SX300.jpg",
-        "language": "English",
-        "genre": "Comedy",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "language": "Engelsk",
+        "genre": "Komedi",
+        "description": "Kommer en Casanova att få en andra chans när hans tjejhatande vänner får reda på att han söker efter staden?",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Problem Child",
         "poster": "https://m.media-amazon.com/images/M/MV5BYzk3NGI4NjgtYTJkNS00NzBmLTllYTAtYzE1ZGJlOWQ0MDQxXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-        "language": "English",
-        "genre": "Comedy",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "language": "Engelsk",
+        "genre": "Komedi",
+        "description": "Ben Healy och hans fru bestämmer sig för att adoptera Junior, en sjuårig pojke, när de inte kan bli gravid. Snart avslöjar Junior sin busiga natur som gör sina adoptivföräldrar galna.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "The Conjuring",
         "poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_SX300.jpg",
-        "language": "English",
-        "genre": "Horror",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "language": "Engelsk",
+        "genre": "Skräck",
+        "description": "Familjen Perron flyttar in i en bondgård där de upplever paranormala fenomen. De konsulterar demonologer, Ed och Lorraine Warren, för att hjälpa dem att bli av med den onda enhet som spökar dem.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Sami Blood",
         "poster": "https://m.media-amazon.com/images/M/MV5BNTM4NmZjNWItM2JjNS00Y2Q3LWI0NzUtZDRjZjZlYWJlNjhhXkEyXkFqcGdeQXVyMzM0MjEwNzQ@._V1_SX300.jpg",
-        "language": "Swedish",
+        "language": "Svenska",
         "genre": "Drama",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "description": "En tonårsflicka tas från sitt hem och sin familj och skickas till en statlig skola där inhemska elever omvandlas till godtagbara medlemmar i det svenska samhället.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Welcome",
         "poster": "https://m.media-amazon.com/images/M/MV5BZjcyOTViMzUtOWQ5Yy00ZTVmLWJmYzctN2U2OGVlN2ZjNTA0XkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg",
         "language": "Hindi",
-        "genre": "Comedy",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "genre": "Komedi",
+        "description": "Två skurkar möter Rajeev, som tillhör en respektabel familj, och vill fixa sin systers bröllop med honom. Men när Rajeevs farbror vägrar att matcha, inträffar en serie roliga situationer.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     },
     {
         "title": "Kedarnath",
         "poster": "https://m.media-amazon.com/images/M/MV5BNThhYzE5MDUtODYyMC00ZWI3LTk0ZTgtNDgyMmYxM2UzZjBmXkEyXkFqcGdeQXVyNjE1OTQ0NjA@._V1_SX300.jpg",
         "language": "Hindi",
-        "genre": "Romantic drama",
-        "description": "",
-        "trailer":"https://www.youtube.com/embed/03-KVRmd3xo"
+        "genre": "Romantiskt drama",
+        "description": "Mansoor, en reserverad muslimsk portier, blir kär i Mukku, en vacker och upprorisk dotter till en hinduisk präst. Men deras kärlek sätts på prov bland missförstånd och naturens vrede.",
+        "trailer": "https://www.youtube.com/embed/03-KVRmd3xo"
     }
 ]
