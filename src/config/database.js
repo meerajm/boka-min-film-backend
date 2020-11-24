@@ -16,7 +16,7 @@ const connect = async () => {
     const opts = {
       useNewUrlParser: true,
       useUnifiedTopology: true,
-      useCreateIndex: true
+      useCreateIndex: true,
     };
     await mongoose.connect(mongoConnectionString, opts);
     logger.debug({ mongoConnectionString });

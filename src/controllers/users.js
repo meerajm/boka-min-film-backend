@@ -23,9 +23,9 @@ router.post("/", async (req, res) => {
       await user.save();
       return res.json(user);
     }
-    return res
-      .status(400)
-      .json({ message: "please include name, email, phone number and ticket details" });
+    return res.status(400).json({
+      message: "please include name, email, phone number and ticket details",
+    });
   } catch (err) {
     return res.status(500).send(err);
   }

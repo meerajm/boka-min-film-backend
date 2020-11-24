@@ -109,13 +109,14 @@ describe("Cinema API test", async () => {
       const cinema = await Cinema.findOne({
         cinemaName: expectedCinema.cinemaName,
       });
-      const filterCinemas = cinema.showDetails.filter((data) => {
-        return (
+      const filterCinemas = cinema.showDetails.filter(
+        (data) =>
           data.movieTitle === expectedCinema.showDetails[0].movieTitle &&
           data.showDay === expectedCinema.showDetails[0].showDay
-        );
-      });
-      expect(JSON.stringify(response.body)).to.equal(JSON.stringify(filterCinemas));
+      );
+      expect(JSON.stringify(response.body)).to.equal(
+        JSON.stringify(filterCinemas)
+      );
     });
   });
 

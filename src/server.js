@@ -1,6 +1,6 @@
 const express = require("express");
 const cors = require("cors");
-const multer = require('multer');
+const multer = require("multer");
 const pino = require("pino");
 const expressLogger = require("express-pino-logger");
 
@@ -23,7 +23,7 @@ const multerMid = multer({
   },
 });
 
-app.use(multerMid.single('file'));
+app.use(multerMid.single("file"));
 
 const users = require("./controllers/users");
 const tickets = require("./controllers/tickets");

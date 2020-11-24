@@ -20,11 +20,8 @@ router.post("/", async (req, res) => {
   const { title, language, genre, description, trailer, file } = body;
   try {
     if (!file) {
-      res.status(400).send("Poster upload has failed");
-      return;
+      return res.status(400).send("Poster upload has failed");
     }
-    // const uploadFile=file.buffer.toString('base64');
-    // console.log(uploadFile);
     if (title && language && genre && description && trailer && file) {
       const uploadResponse = await cloudinary.uploader.upload(file, {
         upload_preset: cloudinaryPreset[process.env.NODE_ENV],

@@ -2,15 +2,11 @@
   "env": {
     "commonjs": true,
     "es2020": true,
-    "node": true
+    "node": true,
+    "mocha": true
   },
-  "extends": [
-    "prettier", 
-    "airbnb-base"
-  ],
-  "plugins": [
-    "prettier"
-  ],
+  "extends": ["prettier", "airbnb-base"],
+  "plugins": ["prettier"],
   "globals": {
     "Atomics": "readonly",
     "SharedArrayBuffer": "readonly",
@@ -25,6 +21,15 @@
       "error",
       {
         "endOfLine": "auto"
+      }
+    ],
+    "operator-linebreak": [
+      "error",
+      "after",
+      {
+        "overrides": {
+          ":": "before"
+        }
       }
     ],
     "linebreak-style": 0,
