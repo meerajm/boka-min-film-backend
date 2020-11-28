@@ -23,6 +23,7 @@
         "endOfLine": "auto"
       }
     ],
+    "implicit-arrow-linebreak": [1, "below"],
     "operator-linebreak": [
       "error",
       "after",
