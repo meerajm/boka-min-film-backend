@@ -1,6 +1,6 @@
 const { connect } = require("./config/database");
 const app = require("./server");
-var PORT = 5000 || process.env.PORT;
+var PORT = process.env.PORT || 5000;
 
 connect();
 // eslint-disable-next-line no-console
