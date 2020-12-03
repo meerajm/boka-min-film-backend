@@ -26,7 +26,6 @@ const multerMid = multer({
 app.use(multerMid.single("file"));
 
 const users = require("./controllers/users");
-const tickets = require("./controllers/tickets");
 const movies = require("./controllers/movies");
 const cinemas = require("./controllers/cinemas");
 const payment = require("./controllers/payments");
@@ -39,7 +38,6 @@ app.get("/", (req, res) => {
 });
 
 app.use("/api/v1/users", users);
-app.use("/api/v1/users/:userId/tickets", tickets);
 app.use("/api/v1/movies", movies);
 app.use("/api/v1/cinemas", cinemas);
 app.use("/checkout", payment);
