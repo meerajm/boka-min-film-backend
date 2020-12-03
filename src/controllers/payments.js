@@ -1,4 +1,5 @@
 const express = require("express");
+
 const router = express.Router();
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const uuid = require("uuid/v4");
@@ -17,7 +18,7 @@ router.post("/", async (req, res) => {
     });
 
     const idempotency_key = uuid();
-    const charge = await stripe.charges.create(
+    await stripe.charges.create(
       {
         amount: price * 100,
         currency: "usd",
@@ -39,13 +40,10 @@ router.post("/", async (req, res) => {
         idempotency_key,
       }
     );
-    console.log("Charge:", { charge });
     status = "success";
-  } catch (error) {
-    console.error("Error:", error);
+  } catch (err) {
     status = "failure";
   }
-
   res.json({ error, status });
 });
 

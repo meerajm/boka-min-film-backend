@@ -33,6 +33,7 @@
         }
       }
     ],
+    "camelcase": "off",
     "linebreak-style": 0,
     "trailing-comma": 0,
     "comma-dangle": 0,

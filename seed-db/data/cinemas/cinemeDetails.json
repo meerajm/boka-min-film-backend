@@ -1,6 +1,6 @@
 [
     {
-        "cinemaName": "INOX",
+        "cinemaName": "Filmstaden Scandinavia",
         "showDetails": [
             {
                 "id": 1,
@@ -97,14 +97,110 @@
                     "A2",
                     "B1"
                 ]
+            },
+            {
+                "id": 9,
+                "showDay": "söndag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 10,
+                "showDay": "söndag",
+                "startTime": "15:30",
+                "movieTitle": "Crazy, Stupid, Love",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 11,
+                "showDay": "måndag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 12,
+                "showDay": "tisdag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 13,
+                "showDay": "onsdag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 14,
+                "showDay": "torsdag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 15,
+                "showDay": "fredag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 16,
+                "showDay": "lördag",
+                "startTime": "20:00",
+                "movieTitle": "Captain America: Civil War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
             }
         ]
     },
     {
-        "cinemaName": "PVR Cinemas",
+        "cinemaName": "Filmstaden Kista",
         "showDetails": [
             {
-                "id": 9,
+                "id": 101,
                 "showDay": "söndag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -116,7 +212,7 @@
                 ]
             },
             {
-                "id": 10,
+                "id": 102,
                 "showDay": "måndag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -128,7 +224,7 @@
                 ]
             },
             {
-                "id": 11,
+                "id": 103,
                 "showDay": "tisdag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -140,7 +236,7 @@
                 ]
             },
             {
-                "id": 12,
+                "id": 104,
                 "showDay": "onsdag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -152,7 +248,7 @@
                 ]
             },
             {
-                "id": 13,
+                "id": 105,
                 "showDay": "torsdag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -164,7 +260,7 @@
                 ]
             },
             {
-                "id": 14,
+                "id": 106,
                 "showDay": "fredag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -176,7 +272,7 @@
                 ]
             },
             {
-                "id": 15,
+                "id": 107,
                 "showDay": "lördag",
                 "startTime": "14:30",
                 "movieTitle": "Welcome",
@@ -186,11 +282,353 @@
                     "A2",
                     "B1"
                 ]
-            },{
-                "id": 16,
+            },
+            {
+                "id": 108,
                 "showDay": "lördag",
                 "startTime": "18:30",
                 "movieTitle": "Welcome",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 109,
+                "showDay": "söndag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 110,
+                "showDay": "måndag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 111,
+                "showDay": "tisdag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 112,
+                "showDay": "onsdag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 113,
+                "showDay": "torsdag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 114,
+                "showDay": "fredag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 115,
+                "showDay": "lördag",
+                "startTime": "18:30",
+                "movieTitle": "Avengers: Infinity War",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 121,
+                "showDay": "söndag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 122,
+                "showDay": "måndag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 123,
+                "showDay": "tisdag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 124,
+                "showDay": "onsdag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 125,
+                "showDay": "torsdag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 126,
+                "showDay": "fredag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 127,
+                "showDay": "lördag",
+                "startTime": "14:30",
+                "movieTitle": "The Conjuring",
+                "screen": "3",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            }
+        ]
+    },
+    {
+        "cinemaName": "Filmstaden Vällingby",
+        "showDetails": [
+            {
+                "id": 201,
+                "showDay": "söndag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 202,
+                "showDay": "måndag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 203,
+                "showDay": "tisdag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 204,
+                "showDay": "onsdag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 205,
+                "showDay": "torsdag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 206,
+                "showDay": "fredag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 207,
+                "showDay": "lördag",
+                "startTime": "9:30",
+                "movieTitle": "Sami Blood",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 210,
+                "showDay": "söndag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 211,
+                "showDay": "måndag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 212,
+                "showDay": "tisdag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 213,
+                "showDay": "onsdag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 214,
+                "showDay": "torsdag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 215,
+                "showDay": "fredag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
+                "screen": "1",
+                "bookedSeats": [
+                    "A1",
+                    "A2",
+                    "B1"
+                ]
+            },
+            {
+                "id": 216,
+                "showDay": "lördag",
+                "startTime": "20:00",
+                "movieTitle": "Problem Child",
                 "screen": "1",
                 "bookedSeats": [
                     "A1",
