@@ -23,7 +23,7 @@
         "endOfLine": "auto"
       }
     ],
-    "implicit-arrow-linebreak": [1, "below"],
+    "implicit-arrow-linebreak": "off",
     "operator-linebreak": [
       "error",
       "after",
@@ -34,6 +34,7 @@
       }
     ],
     "camelcase": "off",
+    "object-curly-newline": "off",
     "linebreak-style": 0,
     "trailing-comma": 0,
     "comma-dangle": 0,

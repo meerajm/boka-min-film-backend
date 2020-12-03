@@ -17,14 +17,7 @@ router.get("/", async (req, res) => {
 // Post a product in a specific user - without asnwers
 router.post("/", async (req, res) => {
   const { body } = req;
-  const {
-    title,
-    language,
-    genre,
-    description,
-    trailer,
-    file
-  } = body;
+  const { title, language, genre, description, trailer, file } = body;
   try {
     if (!file) {
       return res.status(400).send("Poster upload has failed");
