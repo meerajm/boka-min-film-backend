@@ -51,8 +51,6 @@ To insert/update all movies and cinemas in database:
 
 # Cloudinary Setup
 
-######Setup
-
 1. Follow link (https://cloudinary.com/) to set up a cloudinary account.
 2. npm install cloudinary
 3. Add a new folder for your project called "dev-bokaminfilm".
@@ -60,7 +58,6 @@ To insert/update all movies and cinemas in database:
 
 # BokaMinFilm backend
 
-####Setup  
 Eslint must be installed globally: `npm install -g eslint`
 
 Database MongoDB: add connection string to .env file:
