@@ -5,7 +5,6 @@ const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 const uuid = require("uuid/v4");
 
 router.post("/", async (req, res) => {
-
   let error;
   let status;
   try {
