@@ -3,4 +3,4 @@ const app = require("./server");
 
 connect();
 // eslint-disable-next-line no-console
-app.listen(5000, () => console.log("Running on Port 5000"));
+app.listen(5000 || process.env.PORT, () => console.log("Running on Port 5000"));
