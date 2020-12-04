@@ -33,7 +33,7 @@ const payment = require("./controllers/payments");
 app.get("/", (req, res) => {
   logger.debug("hi there");
   res.json({
-    message: "it works",
+    message: "It works",
   });
 });
 
