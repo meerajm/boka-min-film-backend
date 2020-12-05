@@ -4,7 +4,6 @@ const { cloudinary, cloudinaryPreset } = require("../config/cloudinary");
 
 const router = express.Router();
 
-// get all users
 router.get("/", async (req, res) => {
   try {
     const allMovies = await Movie.find();
@@ -14,7 +13,6 @@ router.get("/", async (req, res) => {
   }
 });
 
-// Post a product in a specific user - without asnwers
 router.post("/", async (req, res) => {
   const { body } = req;
   const { title, language, genre, description, trailer, file } = body;
