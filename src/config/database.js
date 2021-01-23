@@ -11,7 +11,7 @@ const envFiles = {
 require("dotenv").config({ path: envFiles[process.env.NODE_ENV] });
 
 const connect = async () => {
-  const mongoConnectionString = process.env.MONGODB_URI;
+  const mongoConnectionString = process.env.MONGO_URI;
   try {
     const opts = {
       useNewUrlParser: true,

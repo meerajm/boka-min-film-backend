@@ -13,7 +13,7 @@ const envFiles = {
 require('dotenv').config({ path: envFiles[process.env.NODE_ENV] });
 
 const config = {
-  database: process.env.MONGODB_URI,
+  database: process.env.MONGO_URI,
   dropDatabase: false,
   dropCollections: true,
 };
