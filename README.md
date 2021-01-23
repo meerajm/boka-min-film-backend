@@ -1,6 +1,7 @@
 # BokaMinFilm
 
 [![Actions Status](https://github.com/meerajm/boka-min-film-backend/workflows/BokaMinFilm%20backend/badge.svg)](https://github.com/meerajm/boka-min-film-backend/actions)
+[![Actions Status](https://github.com/meerajm/boka-min-film-backend/workflows/Run%20Lint/badge.svg)](https://github.com/meerajm/boka-min-film-backend/actions)
 
 # backend
 
