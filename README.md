@@ -85,3 +85,5 @@ Database MongoDB: add connection string to .env file:
 2. Create `.env` file in the project directory. Add MONGO_URI='YOUR CONNECTION STRING HERE' to `.env` file.
 
 3. Create `.env.test` file in the project directory. Add MONGO_URI='YOUR CONNECTION STRING HERE' to `.env.test` The database must have a different name than in step 2.
+
+> npm run test
